@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+    border-top: 5px solid yellow;
+    font-family: 'Oxygen', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.header {
+    background: red;
+    overflow: hidden;
+}
+.header-logo {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+ul li a {
+    text-decoration: none;
+    float: left;
+    margin-left: 30px;
+    color: #fff;
+}
+ul li {
+    list-style-type: none;
+    margin-left: 70px;
+}
+.icons {
+    overflow: hidden;
+}
+.icon {
+    float: right;
+    margin-right: 30px;
+}
+.left-block {
+    width: 50%;
+    height: 100%;    
+}
+.left-block-main {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.laker {
+    width: 560px;
+    height: 300px;
+}
+.left-metin {
+    font-size: 20px;
+    font-weight: 700;
+}
+.left-metin-1 {
+    font-size: 18px;
+    font-weight: 400;
+}
+.history p {
+    padding-right: 30px;
+    display: inline;
+    font-size: 12px;
+}
