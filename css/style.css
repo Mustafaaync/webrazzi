@@ -1,25 +1,33 @@
 body {
     padding: 0;
     margin: 0;
-    border-top: 5px solid yellow;
+    border-top: 4px solid rgb(235, 215, 30);
     font-family: 'Oxygen', sans-serif;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 150px;
+    padding-right: 110px;
+    background: #F5F5F5;
+}
+.genel-container {
+    overflow: hidden;
 }
 .header {
-    background: red;
     overflow: hidden;
+    padding-right: 20px;
+    height: 80px;
 }
 .header-logo {
     width: 50px;
     height: 50px;
     float: left;
 }
+.list {
+    margin-top: 25px;
+}
 ul li a {
     text-decoration: none;
     float: left;
     margin-left: 30px;
-    color: #fff;
+    color: black;
 }
 ul li {
     list-style-type: none;
@@ -27,17 +35,18 @@ ul li {
 }
 .icons {
     overflow: hidden;
+    margin-right: 115px;
 }
 .icon {
     float: right;
     margin-right: 30px;
 }
 .left-block {
-    width: 50%;
-    height: 100%;    
+    width: 560px;
+    float: left;
 }
 .left-block-main {
-    padding-left: 60px;
+    padding-left: 50px;
     padding-right: 60px;
 }
 .laker {
@@ -47,13 +56,80 @@ ul li {
 .left-metin {
     font-size: 20px;
     font-weight: 700;
+    margin-top: 20px;
+    line-height: 25px;
 }
 .left-metin-1 {
     font-size: 18px;
     font-weight: 400;
+    margin-top: 20px;
+    line-height: 25px;
 }
 .history p {
     padding-right: 30px;
     display: inline;
     font-size: 12px;
+}
+.history {
+    margin-top: 30px;
+}
+.right-block {
+    float: left;
+    overflow: hidden;
+    width: 720px;
+    height: 700px;
+}
+.right-block-news {
+    margin-left: 20px;
+}
+.news img {
+    border-radius: 10px;
+    margin-right: 10px;
+    float: left;
+    width: 179px;
+    height: 101px;
+}
+.news-link {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-bottom: 35px;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.news {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.right-block h1 {
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.news p {
+    display: inline;
+    font-size: 12px;
+    padding-right: 30px;
+}
+    
+h6 a {
+    text-decoration: none;
+    display: inline;
+    background: yellow;
+    margin-left: 192px;
+}
+.news a {
+    color: black;
+    text-decoration: none;
+}
+.news h3 a {
+    padding-right: 50px;
+}
+.lentgh {
+    margin-left: 192px;
 }
