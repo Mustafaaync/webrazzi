@@ -14,6 +14,7 @@ body {
     overflow: hidden;
     padding-right: 20px;
     height: 80px;
+    
 }
 .header-logo {
     width: 50px;
@@ -90,17 +91,16 @@ ul li {
     height: 101px;
 }
 .news-link {
-    text-decoration: none;
     color: black;
     display: block;
-    margin-bottom: 35px;
-}
-h3 {
-    font-size: 20px;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 20px;
+    padding-right: 160px;
 }
-
+.news-link:hover {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
 .news {
     overflow: hidden;
     margin-bottom: 20px;
@@ -112,24 +112,34 @@ h3 {
     margin-bottom: 20px;
 }
 .news p {
-    display: inline;
     font-size: 12px;
-    padding-right: 30px;
 }
-    
-h6 a {
-    text-decoration: none;
-    display: inline;
-    background: yellow;
-    margin-left: 192px;
-}
+
 .news a {
     color: black;
     text-decoration: none;
 }
-.news h3 a {
-    padding-right: 50px;
+.designed-by{
+    display: inline-block;
+    width: 130px;
 }
-.lentgh {
-    margin-left: 192px;
+.news-detail {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.position-link p {
+    position: absolute;
+    bottom: 0px;
+    right: 250px;
+}
+.color {
+    width: auto;
+    background: yellow;
+}
+.news-precontent {
+    float: left;
+    width: 511px;
+    height: 101px;
+    position: relative;
 }
