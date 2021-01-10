@@ -150,15 +150,16 @@ ul li {
     float: left;
 }
 .box{
-    background: red;
+    background: #222223;
     overflow: hidden;
     width: 800px;
-    height: 188px;
+    height: 200px;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 .left-text {
     width: 430px;
-    height: 210px;
+    height: 21w0px;
     float: left;
     margin-top: 20px;
     margin-left: 20px;
@@ -197,8 +198,55 @@ ul li {
 .tiktok-image {
     width: 200px;
     height: 160px;
+    border-radius: 7px;
 }
 .yazar {
     text-decoration: none;
     color: gray;
+}
+/* ENTERENCE RİGHT */
+.enterence-right {
+    float: right;
+    width: 390px;
+    height: 550px;
+    background: #222223;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+.enterence-right-bigtitle {
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid gray;
+    height: 50px;
+}
+.enterence-right-box {
+    height: 60px;
+    padding: 10px 20px 20px 20px; 
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    border-bottom: 2px solid gray;
+}
+.right-title {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+.right-title:hover {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+.position-yazar {
+    display: block;
+    text-decoration: none;
+    position: absolute;
+    bottom: 15px;
+    color: gray;
+}
+.enterence-right-bigtitle h1 {
+    color: #fff;
 }
