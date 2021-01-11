@@ -5,11 +5,11 @@ body {
     font-family: 'Roboto', sans-serif;
     padding-left: 90px;
     background: #F5F5F5;
-    height: 100%;
 }
 .genel-container {
     overflow: hidden;
     width: 1280px;
+    padding: 0 12px;
 }
 .header {
     overflow: hidden;
@@ -36,7 +36,7 @@ ul li {
 }
 .icons {
     overflow: hidden;
-    margin-right: 115px;
+    margin-right: 70px;
 }
 .icon {
     float: right;
@@ -145,13 +145,13 @@ ul li {
     overflow: hidden;
     height: 950px;
     margin-top: 85px;
+    padding: 0 10px;
 }
 .enterence-left {
     float: left;
 }
 .box{
     background: #222223;
-    overflow: hidden;
     width: 800px;
     height: 200px;
     border-radius: 5px;
@@ -264,7 +264,7 @@ ul li {
 .line {
     width: 15px;
     height: 3px;
-    background: yellow;
+    background: red;
     position: absolute;
     top: 6px;
     left: -30px;
