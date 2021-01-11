@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     border-top: 4px solid rgb(235, 215, 30);
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-left: 90px;
     background: #F5F5F5;
     height: 100%;
@@ -144,9 +144,9 @@ ul li {
 .enterence {
     overflow: hidden;
     height: 950px;
+    margin-top: 85px;
 }
 .enterence-left {
-    width:500px;
     float: left;
 }
 .box{
@@ -163,6 +163,7 @@ ul li {
     float: left;
     margin-top: 20px;
     margin-left: 20px;
+    position: relative;
 }
 .tiktok {
     margin-bottom: 20px;
@@ -184,6 +185,7 @@ ul li {
 .enterence-title {
     margin-bottom: 10px;
     color: gray;
+    font-weight: 700;
 }
 .enterence-image img {
     width: 280px;
@@ -206,11 +208,11 @@ ul li {
 }
 /* ENTERENCE RİGHT */
 .enterence-right {
-    float: right;
+    float:left;
+    margin-left: 100px;
     width: 390px;
-    height: 550px;
+    height: 519px;
     background: #222223;
-    margin-right: 50px;
     border-radius: 5px;
 }
 .enterence-right-bigtitle {
@@ -221,6 +223,7 @@ ul li {
     margin-bottom: 20px;
     border-bottom: 2px solid gray;
     height: 50px;
+    font-weight: 700;
 }
 .enterence-right-box {
     height: 60px;
@@ -230,6 +233,14 @@ ul li {
     margin-right: 10px;
     position: relative;
     border-bottom: 2px solid gray;
+}
+.border {
+    height: 60px;
+    padding: 10px 20px 20px 20px; 
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
 }
 .right-title {
     display: block;
@@ -249,4 +260,12 @@ ul li {
 }
 .enterence-right-bigtitle h1 {
     color: #fff;
+}
+.line {
+    width: 15px;
+    height: 3px;
+    background: yellow;
+    position: absolute;
+    top: 6px;
+    left: -30px;
 }
