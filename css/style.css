@@ -5,7 +5,7 @@ body {
     font-family: 'Roboto', sans-serif;
     padding-left: 220px;
     padding-right: 220px;
-    background: #F5F5F5;
+    background: #e5e5e6;
 }
 .genel-container {
     overflow: hidden;
@@ -224,13 +224,10 @@ ul li {
 }
 .enterence-right-bigtitle {
     font-size: 20px;
-    font-weight: 400;
     padding-left: 28px;
-    margin-top: 20px;
-    margin-bottom: 20px;
     border-bottom: 2px solid gray;
-    height: 50px;
     font-weight: 700;
+    line-height: 79px;
 }
 .enterence-right-box {
     height: 60px;
@@ -320,7 +317,7 @@ ul li {
     cursor: pointer;
 }
 .play-icons:hover {
-    background: red;
+    background: white;
     border-radius: 30px;
 }
 .flat-image {
@@ -409,8 +406,9 @@ ul li {
     font-size: 18px;
 }
 .sell {
-    background: yellow;
-    border: 2px solid yellow;
+    background: #f3d02e;
+    border: 2px solid #f3d02e;
+    border-radius: 5px;
 }
 .examine {
     
