@@ -3,7 +3,8 @@ body {
     margin: 0;
     border-top: 4px solid rgb(235, 215, 30);
     font-family: 'Roboto', sans-serif;
-    padding-left: 90px;
+    padding-left: 220px;
+    padding-right: 220px;
     background: #F5F5F5;
 }
 .genel-container {
@@ -308,5 +309,25 @@ ul li {
     position: absolute;
     left: 380px;
     top: 200px;
+    cursor: pointer;
+}
+.flat-image {
+    position: relative;
+    float: left;
+}
+.flat {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 28px;
+    left: 50px;
+    cursor: pointer;
+}
+.flat-1 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 28px;
+    left: 50px;
     cursor: pointer;
 }
