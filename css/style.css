@@ -9,6 +9,12 @@ body {
 }
 .genel-container {
     overflow: hidden;
+    width: 1500px;
+    padding: 0 12px;
+    margin-left: 100px;
+}
+.genel-container-2 {
+    overflow: hidden;
     width: 1580px;
     padding: 0 12px;
 }
