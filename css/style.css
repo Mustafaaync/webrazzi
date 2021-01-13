@@ -336,7 +336,7 @@ ul li {
     cursor: pointer;
 }
 .flat:hover {
-    background: blue;
+    background: red;
     border-radius: 30px;
 }
 .flat-1 {
@@ -348,7 +348,7 @@ ul li {
     cursor: pointer;
 }
 .flat-1:hover {
-    background: blue;
+    background: red;
     border-radius: 30px;
 }
 .ticket-container {
