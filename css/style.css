@@ -161,6 +161,7 @@ ul li {
     height: 220px;
     border-radius: 5px;
     margin-bottom: 10px;
+    margin-left: 10px;
 }
 .left-text {
     width: 430px;
@@ -362,7 +363,7 @@ ul li {
     background: white;
     position: relative;
     float: left;
-    margin-left: 63px;
+    margin-left: 58px;
     margin-top: 110px;
     margin-bottom: 50px;
     border-radius: 10px;
